@@ -1,1 +1,6 @@
-passwd && sudo apt update && sudo apt upgrade -y && wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb && sudo apt install fastfetch gobuster tealdeer feh gedit ghex stegseek ~/google-chrome-stable_current_amd64.deb -y && tldr -u
+passwd
+sudo apt update && sudo apt upgrade -y 
+
+sudo apt install fastfetch gobuster tealdeer feh gedit ghex stegseek -y && tldr -u
+
+get chrome deb from firefox and install it
