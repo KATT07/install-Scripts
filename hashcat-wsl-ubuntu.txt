@@ -2,7 +2,6 @@ not a script do not blindly run
 
 sudo apt update && sudo apt upgrade -y && sudo apt install john hashcat nmap tealdeer -y && tldr -u
 
-
 install cuda wsl repo_website:https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64
 cd
 wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-keyring_1.1-1_all.deb
