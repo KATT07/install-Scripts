@@ -2,6 +2,12 @@ not a script do not blindly run
 
 sudo apt update && sudo apt upgrade -y && sudo apt install john hashcat nmap tealdeer -y && tldr -u
 
-install cuda wsl
-https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64
-apt install latest ver
+
+install cuda wsl repo_website:https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64
+cd
+wget https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64/cuda-keyring_1.1-1_all.deb
+sudo apt install ./cuda-keyring_1.1-1_all.deb
+sudo apt install cuda-toolkit
+
+note:
+in kali cuda is called nvidia-cuda-toolkit and its been removed from nonfree repo https://pkg.kali.org/pkg/nvidia-cuda-toolkit [2026-09-28]
