@@ -1,0 +1,7 @@
+not a script do not blindly run
+
+sudo apt update && sudo apt upgrade -y && sudo apt install john hashcat nmap tealdeer -y && tldr -u
+
+install cuda wsl
+https://developer.download.nvidia.com/compute/cuda/repos/wsl-ubuntu/x86_64
+apt install latest ver
