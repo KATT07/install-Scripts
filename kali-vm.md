@@ -1,0 +1,7 @@
+```bash
+passwd
+sudo apt update && sudo apt full-upgrade -y
+sudo apt install fastfetch gobuster tealdeer feh gedit ghex stegseek -y && tldr -u
+```
+
+// **get chrome deb from firefox and install it**
