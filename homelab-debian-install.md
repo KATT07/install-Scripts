@@ -137,7 +137,7 @@ sudo docker compose up
 
 // **additional cli tools (optional)**
 ```bash
-sudo apt install tealdeer nala fastfetch nmap -y && tldr -u
+sudo apt install tealdeer nala fastfetch htop nmap -y && tldr -u
 ```
 
 // **installing tailscale**
