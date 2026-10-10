@@ -33,11 +33,8 @@ sudo reboot now
 sudo apt update && sudo apt upgrade -y
 ```
 
-// **!!! not latest ver use latest version when installing**
-```bash
-wget https://freefilesync.org/download/FreeFileSync_14.12_Linux_x86_64.tar.gz && gunzip ./FreeFileSync_14.12_Linux_x86_64.tar.gz && tar xvf ./FreeFileSync_14.12_Linux_x86_64.tar
-./Freefilesync.run
-```
+// **Free File Sync**
+goto https://freefilesync.org/download.php
 
 // **installing docker**
 ```bash
