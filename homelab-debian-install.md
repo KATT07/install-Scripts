@@ -146,6 +146,3 @@ sudo tailscale up --advertise-exit-node
 webui-ports:
 8080-qbit
 32400-plex
-
-TODO:
-ADD INSTALL ARR SUITE
