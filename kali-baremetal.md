@@ -42,9 +42,9 @@ sudo apt update && sudo apt install virt-manager -y
 ```
 
 // **for vmware workstation (prefered)**
-https://www.kali.org/docs/virtualization/install-vmware-host/
+https://support.broadcom.com/group/ecx/free-downloads
 
-
+Kali docs are outdated and vmware is no longer on vmware's website its on broadcom's
 
 # install nvidia drivers and cuda toolkit 
 // **cuda toolkit removed from kali repo !!!!!!!** 
@@ -112,4 +112,3 @@ mkdir ~/Documents/ovpn
 
 ```bash
 sudo systemctl restart lightdm
-```
