@@ -18,6 +18,9 @@ mkdir -p ~/.themes && cp -a /usr/share/themes/* ~/.themes/ && sudo flatpak overr
 sudo flatpak install bitwarden
 ```
 
+// **Note**
+you need to restart in order for flatpak apps to show up
+
 # Disable sleep mode
 
 ```bash
@@ -30,6 +33,18 @@ sudo nano /etc/systemd/logind.conf
 ```bash
 sudo apt update && sudo apt install -y docker.io && sudo systemctl enable docker --now 
 ```
+
+# install VM software for vms if needed
+
+// **for qemu/virt-manager vms**
+```bash
+sudo apt update && sudo apt install virt-manager -y
+```
+
+// **for vmware workstation (prefered)**
+https://www.kali.org/docs/virtualization/install-vmware-host/
+
+
 
 # install nvidia drivers and cuda toolkit 
 // **cuda toolkit removed from kali repo !!!!!!!** 
