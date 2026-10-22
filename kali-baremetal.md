@@ -14,12 +14,25 @@ sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub
 mkdir -p ~/.themes && cp -a /usr/share/themes/* ~/.themes/ && sudo flatpak override --filesystem=~/.themes/
 ```
 
+// **all optional select what u need**
 ```bash
-sudo flatpak install bitwarden
+sudo flatpak install com.bitwarden.desktop cc.arduino.IDE2 io.github.nozwock.Packet org.qbittorrent.qBittorrent org.libreoffice.LibreOffice com.vscodium.codium org.torproject.torbrowser-launcher
 ```
 
 // **Note**
 you need to restart in order for flatpak apps to show up
+
+// **download snap if needed select optional tools**
+```bash
+sudo apt update && sudo apt install snapd -y && sudo systemctl enable snapd apparmor snapd.apparmor
+```
+
+```bash
+sudo snap install pycharm clion webstorm --classic
+```
+
+// **Note**
+you need to restart in order for snap also
 
 # Disable sleep mode
 
@@ -43,8 +56,12 @@ sudo apt update && sudo apt install virt-manager -y
 
 // **for vmware workstation (prefered)**
 https://support.broadcom.com/group/ecx/free-downloads
-
 Kali docs are outdated and vmware is no longer on vmware's website its on broadcom's
+
+// **for uninstall**
+```bash
+sudo vmware-installer -u vmware-workstation
+```
 
 # install nvidia drivers and cuda toolkit 
 // **cuda toolkit removed from kali repo !!!!!!!** 
@@ -99,6 +116,12 @@ sudo gunzip /usr/share/wordlists/rockyou.txt.gz
 msfconsole
 ```
 
+// **bluetooth disabled by default**
+```bash
+sudo systemctl enable bluetooth
+sudo systemctl start bluetooth
+```
+
 # get ovpn file from thm and htb
 
 ```bash
@@ -112,3 +135,4 @@ mkdir ~/Documents/ovpn
 
 ```bash
 sudo systemctl restart lightdm
+```
