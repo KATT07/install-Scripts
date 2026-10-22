@@ -2,7 +2,7 @@
 
 // **Ghidra,Seclists Optional large download size**
 ```bash
-sudo apt update && sudo apt install fastfetch tealdeer feh gedit ghex stegseek obsidian flatpak gnome-software-plugin-flatpak ghidra seclists -y && tldr -u
+sudo apt update && sudo apt install fastfetch tealdeer feh gedit ghex stegseek obsidian gparted flatpak gnome-software-plugin-flatpak ghidra seclists -y && tldr -u
 ```
 
 ```bash
