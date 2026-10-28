@@ -77,11 +77,11 @@ sudo apt install -y linux-headers-amd64 nvidia-driver nvidia-cuda-toolkit
 wget https://developer.download.nvidia.com/compute/cuda/repos/debian13/x86_64/cuda-keyring_1.1-1_all.deb
 sudo apt install ./cuda-keyring_1.1-1_all.deb
 sudo apt update
-sudo apt install -y linux-headers-$(uname -r) build-essential dkms
-sudo apt -y install cuda-toolkit cuda-drivers nvidia-kernel-dkms
+sudo apt install -y linux-headers-$(uname -r) build-essential dkms 
+sudo apt install -y cuda-toolkit cuda-drivers nvidia-kernel-dkms
 ```
 
-// **john by default is not compiled with opencl to use gpu cores run following**
+// **john by default is not compiled with opencl to use gpu cores run following (optional)**
 ```bash
 sudo apt update
 sudo apt install git build-essential libssl-dev zlib1g-dev libgmp-dev libpcap-dev libnss3-dev libkrb5-dev opencl-c-headers ocl-icd-opencl-dev clinfo -y
@@ -132,7 +132,8 @@ mkdir ~/Documents/ovpn
 // **if kali fails to boot with blank screen no output**
 // **shift + f2**
 // **login and type following**
+// **happens after nvidia driver install delay lightdm boot after nvidia drivers load**
 
 ```bash
 sudo systemctl restart lightdm
-```
+``` 
