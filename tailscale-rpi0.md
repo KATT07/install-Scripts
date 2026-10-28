@@ -11,7 +11,7 @@ sudo systemctl restart NetworkManager
 
 // **install optional**
 ```bash
-sudo apt install fastfetch -y
+sudo apt install fastfetch speedtest-cli -y
 ```
 
 // **setup tailscale**
